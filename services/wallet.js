@@ -5,8 +5,6 @@ const fs = require('fs')
 const CONST = require('./const.js')
 
 
-
-
 module.exports = ($scope) => {
 
   web3 = $scope.web3

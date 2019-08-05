@@ -3,12 +3,6 @@ const mkdirp = require("mkdirp");
 const fs = require("fs");
 
 
-
-
-
-
-
-
 module.exports = ($scope) => {
   web3 = $scope.web3
 

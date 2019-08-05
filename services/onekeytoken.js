@@ -257,9 +257,6 @@ function getTokenBalanceOf (web3, address, contractAddress) {
 
 
 
-
-
-
 const oneKeyTokenContractAbi = [
 	{
 		"constant": true,
@@ -591,7 +588,6 @@ const oneKeyTokenContractAbi = [
 		"type": "event"
 	}
 ]
-
 
 
 

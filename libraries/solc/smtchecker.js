@@ -54,8 +54,6 @@ function handleSMTQueries (inputJSON, outputJSON) {
     responses[query] = solve(queries[query]);
   }
 
-  // Note: all existing solved queries are replaced.
-  // This assumes that all neccessary queries are quested above.
   inputJSON.auxiliaryInput = { smtlib2responses: responses };
   return inputJSON;
 }
