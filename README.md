@@ -1,1 +1,1 @@
-# CubeHashExplorer
+# CubeHash Blockchain Explorer

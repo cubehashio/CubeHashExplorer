@@ -78,15 +78,6 @@ exports.decryptWalletAddressCookie = (stuff) => {
   return '0x' + address
 }
 
-/*
-var address = '0xb8CE9ab6943e0eCED004cDe8e3bBed6568B2Fa01'
-var stuff =  exports.encryptWalletAddressCookie(address)
-var addr =  exports.decryptWalletAddressCookie(stuff)
-console.log(address)
-console.log('--'+stuff)
-console.log(addr)
-*/
-
 
 
 

@@ -1,10 +1,8 @@
 
-
-
 mkdir -p /home/wwwroot/
 chmod 777 -R /home/wwwroot
 cd /home/wwwroot/
-git clone https://github.com/cubehashio/CubeHashexplorer.git
+git clone https://github.com/cubehashio/CubeHashExplorer.git
 cd explorer
 npm install
 

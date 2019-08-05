@@ -23,19 +23,7 @@ module.exports = ($scope) => {
       if(!accobj){
         return cb({err: 1, msg: 'you must login first'});
       }
-      // sand
-      /*console.log(address)
-      console.log(query.to)
-      console.log(query.amount)*/
-      /*var txraw = await accobj.signTransaction({
-        from: address,
-        to: query.to,
-        value: query.amount,
-        gas: 500000,
-        chainId: 5816,
-      })
-      // web3.eth.net.getId().then(console.log);
-      console.log(txraw)*/
+
 
       var inputData
       , appendGas = 0
